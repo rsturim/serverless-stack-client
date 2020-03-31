@@ -1,0 +1,19 @@
+  --username admin@example.com \
+  --password Passw0rd!
+
+
+
+
+API_GATEWAY_ID=8zhs7cihh5
+API_GATEWAY_REGION=us-east-1
+
+
+YOUR_DEV_COGNITO_USER_POOL_ID=us-east-1_wQ4MZmYE0
+YOUR_DEV_COGNITO_APP_CLIENT_ID=4793l22j0f4l1rr1srtm34c30l
+YOUR_DEV_COGNITO_REGION=us-east-1
+YOUR_DEV_IDENTITY_POOL_ID=us-east-1:ef8e6c83-2f32-4094-b8fc-45a91c956ad9
+YOUR_DEV_API_GATEWAY_URL=https://8zhs7cihh5.execute-api.us-east-1.amazonaws.com/prod
+YOUR_DEV_API_GATEWAY_REGION=us-east-1
+
+
+STRIPE_KEY: "pk_test_JhrwRETWAsrkfeTAVISfRpMv004VRdRINz",

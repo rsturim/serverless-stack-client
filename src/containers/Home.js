@@ -69,7 +69,9 @@ export default function Home(props) {
         return (
             <div className="notes">
                 <PageHeader>Your Notes</PageHeader>
-                <ListGroup>{!isLoading && renderNotesList(notes)}</ListGroup>
+                <ListGroup>
+                    {!isLoading && notes && renderNotesList(notes)}
+                </ListGroup>
             </div>
         );
     }

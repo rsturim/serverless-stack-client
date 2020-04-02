@@ -22,7 +22,8 @@
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
         "deploy": "aws s3 sync build/ s3://rsturim-notes-app-client --delete",
-        "postdeploy": "aws cloudfront create-invalidation --distribution-id E2I4BGOT1H0T7H --paths '/*'"
+        "postdeploy": "aws cloudfront create-invalidation --distribution-id E2I4BGOT1H0T7H --paths '/*'",
+        "release-all": "npm run predeploy && npm run deploy && npm run postdeploy"
     },
     "eslintConfig": {
         "extends": "react-app"

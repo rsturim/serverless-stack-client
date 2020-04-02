@@ -41,8 +41,7 @@ const prod = {
     },
     apiGateway: {
         REGION: "us-east-1",
-        URL: "http://api.rsturim.com/prod",
-        // URL: "https://sju98p28oc.execute-api.us-east-1.amazonaws.com/prod",
+        URL: "https://api.rsturim.com/prod",
         // URL: "https://8zhs7cihh5.execute-api.us-east-1.amazonaws.com/prod",
     },
     cognito: {
@@ -50,7 +49,6 @@ const prod = {
         USER_POOL_ID: "us-east-1_4gt1vuJxz",
         APP_CLIENT_ID: "2f3i5a6qn84rtfb4flivm56ib6",
         IDENTITY_POOL_ID: "us-east-1:0f0793b1-556e-4b40-a413-aa3389fb4ea4",
-        // IDENTITY_POOL_ID: "us-east-1:ef8e6c83-2f32-4094-b8fc-45a91c956ad9",
     },
     STRIPE_KEY: "pk_test_JhrwRETWAsrkfeTAVISfRpMv004VRdRINz",
 };

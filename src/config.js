@@ -18,7 +18,8 @@
 const dev = {
     s3: {
         REGION: "us-east-1",
-        BUCKET: "rsturim-notes-app-uploads-dev",
+        // BUCKET: "rsturim-notes-app-uploads-dev",
+        BUCKET: "notes-app-2-api-dev-attachmentsbucket-3r5ry03toixl",
     },
     apiGateway: {
         REGION: "us-east-1",
@@ -37,7 +38,8 @@ const dev = {
 const prod = {
     s3: {
         REGION: "us-east-1",
-        BUCKET: "rsturim-notes-app-uploads",
+        // BUCKET: "rsturim-notes-app-uploads",
+        BUCKET: "notes-app-2-api-prod-attachmentsbucket-sppl3iov68k9",
     },
     apiGateway: {
         REGION: "us-east-1",

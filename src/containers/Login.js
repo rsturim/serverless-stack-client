@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 /* == node libraries */
 import { Auth } from "aws-amplify";
@@ -56,6 +57,7 @@ export default function Login(props) {
                         onChange={handleFieldChange}
                     />
                 </FormGroup>
+                <Link to="/login/reset">Forgot password?</Link>
                 <LoaderButton
                     block
                     type="submit"

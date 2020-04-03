@@ -2,16 +2,17 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 
 /* == containers */
-import AppliedRoute from "./components/AppliedRoute";
 import Home from "./containers/Home";
 import Login from "./containers/Login";
-import Signup from "./containers/Signup";
 import NewNote from "./containers/NewNote";
 import Notes from "./containers/Notes";
-import Settings from "./containers/Settings";
 import NotFound from "./containers/NotFound";
+import ResetPassword from "./containers/ResetPassword";
+import Settings from "./containers/Settings";
+import Signup from "./containers/Signup";
 
-/* == routes */
+/* == routing helpers */
+import AppliedRoute from "./components/AppliedRoute";
 import AuthenticatedRoute from "./components/AuthenticatedRoute";
 import UnauthenticatedRoute from "./components/UnauthenticatedRoute";
 
@@ -31,6 +32,13 @@ export default function Routes({ appProps }) {
                 path="/signup"
                 exact
                 component={Signup}
+                appProps={appProps}
+            />
+
+            <UnauthenticatedRoute
+                path="/login/reset"
+                exact
+                component={ResetPassword}
                 appProps={appProps}
             />
 

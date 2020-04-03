@@ -137,7 +137,7 @@ export default function Signup(props) {
                 </LoaderButton>
                 <div style={{ padding: "20px 0" }}>
                     <small className="form-text text-muted">
-                        Password must be atleast 6 characters long and include
+                        Passwords must be atleast 6 characters long and include
                         one or more special characters. We'll never share your
                         email with anyone else.
                     </small>
